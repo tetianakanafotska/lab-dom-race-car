@@ -9,8 +9,8 @@ body {
 
 #game-container {
   display: flex;
-  width: 100vw;
   padding: 20px 0px;
+  margin-top: 30px;
   justify-content: center;
 }
 
@@ -63,4 +63,24 @@ body button {
   box-shadow: 0;
   border-radius: 5px;
   margin-bottom: 20px;
+}
+
+/*my code*/
+#game-container div:first-of-type {
+  display: flex;
+  gap: 10px;
+  z-index: 1;
+  position: absolute;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.337);
+}
+#game-container p {
+  font-size: 1.8rem;
+  text-align: center;
+  color: white;
+  margin: 7px 10px;
+}
+
+h2 {
+  display: none;
 }
